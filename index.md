@@ -1,11 +1,11 @@
 # PART 1 
 I used the following code, 
+```Java
 import java.io.IOException;
 import java.net.URI;
 
 class Handler implements URLHandler {
     String str= new String();
-```Java
 public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
             return String.format("undefined");
@@ -36,3 +36,14 @@ class StringServer {
     }
 }
 ```
+
+I first entered the text "first try" 
+[Image](ss1.png)
+then I entered " second try" 
+[Image](ss2.png)
+and then " third try" 
+[Image](ss3.png)
+
+
+
+
