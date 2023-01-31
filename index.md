@@ -52,10 +52,11 @@ The server uses the method handleRequests in class Handler which handles all the
 The URI and the String "str" used changes its values.
 
 # PART 2 
+ 
+![Image](ss5.png)
+![Image](ss6.png)
 
 
-
-# PART 3 
 ```Java
 public class ArrayExamples {
 
@@ -65,7 +66,24 @@ public class ArrayExamples {
       arr[i] = arr[arr.length - i - 1];
     }
   }
+  ```
+ ```Java
+public class ArrayExamples {
+
+
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length/2; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+      int alt = arr[i];
+     arr[arr.length - i - 1] = alt;
+    }
+  }
  ```
+ 
+ 
+ 
+ 
+ # PART 3 
 
 
 
