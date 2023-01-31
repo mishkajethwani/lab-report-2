@@ -112,7 +112,7 @@ public class ArrayExamples {
  
  # PART 3 
  
- Through Week 2 I learned to use Github to create my own repositories, I leaned to log in a remote server and access files created by other users. I also got create my own search engine. In week 3, I got familiarised with JUnit that I had not used previously. I also learned and understood the concept of bugs, and symptoms better.
+ Through Week 2, I learned to use Github to create my own repositories, I leaned to log in a remote server and access files created by other users. I also got create my own search engine. In week 3, I got familiarised with JUnit that I had not used previously. I also learned and understood the concept of bugs, and symptoms better.
  
 
 
