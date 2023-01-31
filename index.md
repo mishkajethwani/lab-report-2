@@ -1,6 +1,6 @@
 # PART 1 
 ### Input
-I used the following code, 
+I used the following code to create a web server called StringServer. 
 ```Java
 import java.io.IOException;
 import java.net.URI;
@@ -40,17 +40,33 @@ class StringServer {
 ### Output
 I first entered the text "first try" 
 ![Image](ss1.png)
-then I entered " second try" 
+then I entered "second try" 
 ![Image](ss2.png)
 and then " third try" 
 ![Image](ss3.png)
 
+All of them get concated into the string and appear one below the other due to the added new line character.<br>
 
 We run StringServer.java, that invokes the main method. Where the server object passes the port number and handler Object as arguments. 
-The server uses the method handleRequests in class Handler which handles all the URIs.<br>
+The server uses the method handleRequests in class Handler which handles all the URIs. <br>
 The URI and the String "str" used changes its values.
 
 # PART 2 
+
+
+
+# PART 3 
+```Java
+public class ArrayExamples {
+
+
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+ ```
+
 
 
 
