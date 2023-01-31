@@ -53,8 +53,8 @@ The URI and the String "str" used changes its values.
 
 # PART 2 
  
+![Image](ss4.png)
 ![Image](ss5.png)
-![Image](ss6.png)
 
 
 ```Java
