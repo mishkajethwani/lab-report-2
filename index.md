@@ -62,8 +62,6 @@ The URI and the String "str" used changes its values.
     assertArrayEquals(new int[]{8,9,0}, input1);
 	}
   ```
-It will appear as below:
-   
 
 
 ### An input that doesn’t induce a failure
@@ -109,10 +107,13 @@ public class ArrayExamples {
   }
  ```
  
- 
+ The bug is fixed since we create a new variable called, alt which stores the array. Before doing so, the array would overwrite at specific indices. Such as, the array (0,9,8) should be reversed to (8,9,0) but it results in (8,9,8).
  
  
  # PART 3 
+ 
+ Through Week 2 I learned to use Github to create my own repositories, I leaned to log in a remote server and access files created by other users. I also got create my own search engine. In week 3, I got familiarised with JUnit that I had not used previously. I also learned and understood the concept of bugs, and symptoms better.
+ 
 
 
 
