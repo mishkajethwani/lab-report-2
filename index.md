@@ -52,11 +52,39 @@ The server uses the method handleRequests in class Handler which handles all the
 The URI and the String "str" used changes its values.
 
 # PART 2 
- 
+ ### A failure-inducing input for the buggy program.
+ ```Java
+ \public class ArrayTests {
+	@Test 
+	public void testReverseInPlace() {
+    int[] input1 = {0,9,8};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{8,9,0}, input1);
+	}
+  ```
+It will appear as below:
+   
+
+
+### An input that doesn’t induce a failure
+```Java
+public class ArrayTests {
+	@Test 
+	public void testReverseInPlace() {
+    int[] input1 = {0,0,0};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{0,0,0}, input1);
+	}
+```
+
+
+### The symptom, as the output of running the tests 
+
 ![Image](ss4.png)
-![Image](ss5.png)
 
+### The bug, as the before-and-after code change required to fix it
 
+#### BEFORE
 ```Java
 public class ArrayExamples {
 
@@ -67,6 +95,7 @@ public class ArrayExamples {
     }
   }
   ```
+  #### AFTER
  ```Java
 public class ArrayExamples {
 
