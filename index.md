@@ -45,7 +45,14 @@ then I entered " second try"
 and then " third try" 
 ![Image](ss3.png)
 
-#PART2
+
+We run StringServer.java, that invokes the main method. Where the server object passes the port number and handler Object as arguments. 
+The server uses the method handleRequests in class Handler which handles all the URIs.<br>
+The URI and the String "str" used changes its values.
+
+# PART 2 
+
+
 
 
 
