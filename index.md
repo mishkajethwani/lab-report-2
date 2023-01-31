@@ -1,5 +1,5 @@
 # PART 1 
-##Input
+### Input
 I used the following code, 
 ```Java
 import java.io.IOException;
@@ -37,7 +37,7 @@ class StringServer {
     }
 }
 ```
-##Output
+### Output
 I first entered the text "first try" 
 ![Image](ss1.png)
 then I entered " second try" 
