@@ -38,11 +38,11 @@ class StringServer {
 ```
 
 I first entered the text "first try" 
-[Image](ss1.png)
+![Image](ss1.png)
 then I entered " second try" 
-[Image](ss2.png)
+![Image](ss2.png)
 and then " third try" 
-[Image](ss3.png)
+![Image](ss3.png)
 
 
 
